@@ -26,7 +26,7 @@ $ cd ./Shell-Stack/WP-LEMP-Simple/
 ```
 
 
-<p>2. Setting Environmentr</p>
+<p>2. Setting Environment</p>
 
 ```
 $ vi .env
