@@ -29,7 +29,7 @@ $ cd ./Shell-Stack/WP-LEMP-Simple/
 $ vi .env
 
 
-<p>3. Execute!r</p>
+<p>3. Execute!</p>
 $ source .env
 
 $ sh 1_init.sh
