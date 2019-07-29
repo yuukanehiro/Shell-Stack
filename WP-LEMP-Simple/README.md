@@ -12,6 +12,7 @@ Simple Install WordPress, Nginx, PHP-FPM, PHP71, MySQL5.6
 
 1. AWS EC2
 2. AMI: CentOS Linux 7 x86_64 HVM EBS ENA 1901_01-b7ee8a69-ee97-4a49-9e68-afaee216db2e-ami-05713873c6794f575.4 (ami-045f38c93733dd48d)
+3. ALB + ACM(HTTPS) configured
 
 
 ## Usage
