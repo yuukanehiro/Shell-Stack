@@ -18,22 +18,27 @@ Simple Install WordPress, Nginx, PHP-FPM, PHP71, MySQL5.6
 
 <p>1. Change root User</p>
 
+```
+
 $ sudo su
 
 $ cd ./Shell-Stack/WP-LEMP-Simple/
-
+```
 
 
 <p>2. Setting Environmentr</p>
 
+```
 $ vi .env
-
+```
 
 <p>3. Execute!</p>
+
+```
 $ source .env
 
 $ sh 1_init.sh
-
+```
 
 
 ## Author
