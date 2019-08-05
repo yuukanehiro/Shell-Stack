@@ -29,20 +29,20 @@ $ cd $HOME/Shell-Stack-master/WP-LEMP-Simple
 ```
 
 
-<p>1. Change Directory</p>
+<p>2. Change Directory</p>
 
 ```
 $ cd ./Shell-Stack/WP-LEMP-Simple-master/
 ```
 
 
-<p>2. Setting Environment</p>
+<p>3. Setting Environment</p>
 
 ```
 $ vi .env
 ```
 
-<p>3. Execute!</p>
+<p>4. Execute!</p>
 
 ```
 $ source .env
