@@ -17,11 +17,22 @@ Simple Install WordPress, Nginx, PHP-FPM, PHP71, MySQL5.6
 
 ## Usage
 
-<p>1. Change root User</p>
+
+<p>1. Download Shell-Stack</p>
 
 ```
-$ sudo su
-$ cd ./Shell-Stack/WP-LEMP-Simple/
+$ sudo su -
+$ yum -y install wget git unzip
+$ wget https://github.com/yuukanehiro/Shell-Stack/archive/master.zip
+$ unzip master.zip
+$ cd $HOME/Shell-Stack-master/WP-LEMP-Simple
+```
+
+
+<p>1. Change Directory</p>
+
+```
+$ cd ./Shell-Stack/WP-LEMP-Simple-master/
 ```
 
 
