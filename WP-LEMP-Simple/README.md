@@ -50,6 +50,22 @@ $ sh 1_init.sh
 ```
 
 
+<p>5. hosts or DNS</p>
+
+```
+●hosts
+
+192.168.11.101 example.net www.example.net
+```
+
+<p>6. Access!</p>
+
+http://www.example.net/
+
+
+
+
+
 ## Author
 
 [yuu kanehiro](https://github.com/yuukanehiro)
