@@ -245,10 +245,7 @@ sudo tar zxvf latest-*
 sudo mkdir -p /var/www/vhosts/${WP_SITENAME}/httpdocs/
 sudo rsync -arv ./wordpress/ /var/www/vhosts/${WP_SITENAME}/httpdocs/
 sudo chown ${WEB_USER}:nginx -R /var/www/vhosts/
-sudo chown ${WEB_USER}:nginx -R /var/lib/php/session
 sudo rm -rf wordpress latest-ja.tar.gz
-
-
 
 
 
@@ -265,6 +262,9 @@ sudo sed -i -e "s|;date.timezone =|date.timezone = Asia/Tokyo|" /etc/php.ini
 sudo sed -i -e "s|session.sid_length = 26|session.sid_length = 32|" /etc/php.ini
 sudo sed -i -e "s|;mbstring.language = Japanese|mbstring.language = Japanese|" /etc/php.ini
 
+
+# セッション権限設定
+sudo chown ${WEB_USER}:nginx -R /var/lib/php/session
 
 
 ## PHP-FPM設定 ====================================================
