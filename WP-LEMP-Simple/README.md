@@ -25,14 +25,13 @@ $ sudo su -
 $ yum -y install wget git unzip
 $ wget https://github.com/yuukanehiro/Shell-Stack/archive/master.zip
 $ unzip master.zip
-$ cd $HOME/Shell-Stack-master/WP-LEMP-Simple
 ```
 
 
 <p>2. Change Directory</p>
 
 ```
-$ cd ./Shell-Stack/WP-LEMP-Simple-master/
+$ cd $HOME/Shell-Stack-master/WP-LEMP-Simple
 ```
 
 
